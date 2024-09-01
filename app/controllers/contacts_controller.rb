@@ -6,6 +6,6 @@ class ContactsController < ApplicationController
 
   def first_contact
     @contact = Contact.find_by(id: 1)
-    render template: "contacts/show"
+    render template: "contacts/contact"
   end
 end
